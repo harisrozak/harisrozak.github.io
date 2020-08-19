@@ -11,14 +11,14 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 	display:block;
 }
 
-html, body {background: #181818; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
+html, body {background: #181818; font-family: 'Open Sans', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
 
 .clear {clear: both;}
 
 p {
 	font-size: 1em;
-	line-height: 1.4em;
-	margin-bottom: 20px;
+	line-height: 1.5em;
+	margin-bottom: 17px;
 	color: #444;
 }
 
@@ -137,7 +137,7 @@ section:last-child {
 .sectionContent h2 {
 	font-family: 'Merriweather', Helvetica, Arial, sans-serif;
 	font-size: 1.5em;
-	margin-bottom: 8px;
+	margin-bottom: 14px;
 }
 
 .sectionContent.blockquotes article + article {
