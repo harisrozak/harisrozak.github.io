@@ -252,18 +252,21 @@ section:last-child {
 
 .header-right-button {
 	position: absolute;
-    right: 0;
-    border-right: 5px solid #cf8a05;
-    height: 39px;
-    line-height: 39px;
-    padding: 0 30px 0 40px;
-    background: #cf8a052b;
-    font-weight: 400;
-    color: #cf8a05 !important;
+	right: 0;
+	border-right: 5px solid #cf8a05;
+	height: 39px;
+	line-height: 41px;
+	padding: 0 25px 0 30px;
+	background: #0000000f;
+	font-weight: 400;
+	color: #cf8a05 !important;
+	font-family: 'Merriweather', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 .header-right-button:hover {
 	background: #cf8a057a;
-    color: #ffffff !important;
+	color: #ffffff !important;
 }
 
 
