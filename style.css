@@ -256,7 +256,7 @@ section:last-child {
 	border-right: 5px solid #cf8a05;
 	height: 39px;
 	line-height: 41px;
-	padding: 0 25px 0 30px;
+	padding: 0 40px 0 25px;
 	background: #0000000f;
 	font-weight: 400;
 	color: #cf8a05 !important;
@@ -267,6 +267,13 @@ section:last-child {
 .header-right-button:hover {
 	background: #cf8a057a;
 	color: #ffffff !important;
+}
+.header-right-button svg {
+    position: absolute;
+    height: 15px;
+    top: 13px;
+    right: 13px;
+    fill: currentColor;
 }
 
 
