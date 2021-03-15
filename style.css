@@ -290,9 +290,10 @@ section:last-child {
 
 @media (max-width: 760px) {
 	#cv {
-		width: 95%;
+		width: 100%;
 		margin: 10px auto;
 		min-width: 280px;
+		margin: 0;
 	}
 	
 	#headshot {
@@ -358,18 +359,23 @@ section:last-child {
 	}
 	
 	section {
-		padding: 20px 0 0;
+		padding: 20px 0 0px;
+		border: none;
+	}
+
+	section:last-child {
+		padding: 20px 0 30px;
 	}
 	
 	#mainArea {
-		padding: 0 25px;
+		padding: 10px 25px 0;
 	}
-
 	
 	.keySkills {
 		-moz-column-count:1 !important;
 		-webkit-column-count:1 !important;
 		column-count:1 !important;
+		margin-bottom: 15px;
 	}
 	
 	#name h1 {
