@@ -279,6 +279,14 @@ section:last-child {
 	display: none;
 }
 
+code {
+	padding: .2rem .4rem;
+    font-size: .875em;
+    color: #fff;
+    background-color: #212529;
+    border-radius: .2rem;
+    font-family: monospace;
+}
 
 @media all and (min-width: 602px) and (max-width: 800px) {	
 	.keySkills {
